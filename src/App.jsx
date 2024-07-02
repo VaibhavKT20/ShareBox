@@ -1,8 +1,8 @@
 import { ColorSchemeProvider, MantineProvider } from "@mantine/core";
 import { useColorScheme, useLocalStorage } from "@mantine/hooks";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Download from "@/pages/Download";
-import Upload from "@/pages/Upload";
+import Download from "./pages/Download"; // Correcting the import path
+import Upload from "./pages/Upload"; // Correcting the import path
 
 export default function App() {
   const preferredColorScheme = useColorScheme();
